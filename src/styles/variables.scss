@@ -1,0 +1,38 @@
+@import "colors";
+
+//global css
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+:root {
+  //font size
+  --fontSize-xs: var(--space-xss-fixed); // 10px
+  --fontSize-sm: var(--space-sm-fixed); // 12px
+  --fontSize-sx: var(--space-sx-fixed); // 14px 
+  --fontSize-sl: var(--space-unit-fixed); // 16px
+  --fontSize-md: var(--space-lg-fixed); // 20px
+  --fontSize-lg: var(--space-xl-fixed); // 24px
+
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-normal: 500;
+  --font-weight-bold: 600;
+  --letter-spacing: 0.03em;
+
+  /* px spacing values */
+  --space-unit-px: 1px;
+
+  /* em spacing values */
+  --space-unit: 1em; // 16px
+  --space-xs: calc(0.5 * var(--space-unit)); // 8px
+  --space-sm: calc(0.75 * var(--space-unit)); // 12px
+  --space-sx: calc(0.875* var(--space-unit)); // 14px
+  --space-md: calc(1.25 * var(--space-unit)); // 20px
+}

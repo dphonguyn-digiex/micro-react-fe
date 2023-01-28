@@ -1,0 +1,50 @@
+{
+  "name": "guidelines",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode production --config webpack.config.prod.js",
+    "build:dev": "webpack --mode development",
+    "build:start": "cd dist && PORT=8089 npx serve",
+    "debug": "webpack --display-error-details",
+    "start": "webpack serve --open --mode development",
+    "start:dev": "webpack serve --open --mode development --live-reload --no-hot"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/plugin-transform-runtime": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/preset-react": "^7.14.5",
+    "autoprefixer": "^10.1.0",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^6.3.0",
+    "dotenv-webpack": "^8.0.1",
+    "html-webpack-plugin": "^5.3.2",
+    "postcss": "^8.2.1",
+    "postcss-loader": "^4.1.0",
+    "sass": "^1.57.1",
+    "sass-loader": "^13.2.0",
+    "style-loader": "^3.3.0",
+    "webpack": "^5.57.1",
+    "webpack-cli": "^4.9.0",
+    "webpack-dev-server": "^4.3.1"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.13.10",
+    "axios": "^1.2.5",
+    "concurrently": "^7.6.0",
+    "cors": "^2.8.5",
+    "file-loader": "^6.2.0",
+    "form-data": "^4.0.0",
+    "mobx": "^6.7.0",
+    "mobx-react": "^7.6.0",
+    "moment": "^2.29.4",
+    "query-string": "^8.1.0",
+    "react": "^17.0.2",
+    "react-cookie": "^4.1.1",
+    "react-dom": "^17.0.2",
+    "react-i18next": "^12.1.4",
+    "react-router-dom": "^6.8.0",
+    "react-scripts": "^5.0.1"
+  }
+}
