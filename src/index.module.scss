@@ -1,10 +1,5 @@
 @import "@styles/variables.scss";
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
+@import "@fonts/ttNormsFont.scss";
 
 html {
   width: 100%;
@@ -16,4 +11,8 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+}
+
+p {
+  margin: 0;
 }

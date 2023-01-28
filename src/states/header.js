@@ -1,8 +1,7 @@
 import { makeAutoObservable } from "mobx";
-import { ID_GUIDELINES } from "@constants";
-
+import { ID_ROUTES } from "@constants/declaration.js";
 class HeaderModel {
-  selectedHeader = ID_GUIDELINES.HOME;
+  selectedHeader = ID_ROUTES.HOME;
 
   constructor(_menu) {
     makeAutoObservable(this);

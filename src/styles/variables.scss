@@ -1,4 +1,5 @@
 @import "colors";
+@import "mixin";
 
 //global css
 html {
@@ -12,13 +13,17 @@ body {
 }
 
 :root {
-  //font size
-  --fontSize-xs: var(--space-xss-fixed); // 10px
-  --fontSize-sm: var(--space-sm-fixed); // 12px
-  --fontSize-sx: var(--space-sx-fixed); // 14px 
-  --fontSize-sl: var(--space-unit-fixed); // 16px
-  --fontSize-md: var(--space-lg-fixed); // 20px
-  --fontSize-lg: var(--space-xl-fixed); // 24px
+  /* Responsive */
+  --mobile-width: 375px; 
+  --tablet-width: 768px; 
+  --desktop-width: 1440px;
+
+  /* font size */
+  --fontSize-xs: var(--space-xs-px); // 10px
+  --fontSize-sm: var(--space-sm-px); // 12px
+  --fontSize-md: var(--space-md-px); // 14px 
+  --fontSize-lg: var(--space-lg-px); // 16px
+  --fontSize-xl: var(--space-xl-px); // 24px
 
   --font-weight-light: 300;
   --font-weight-regular: 400;
@@ -28,11 +33,22 @@ body {
 
   /* px spacing values */
   --space-unit-px: 1px;
+  --space-xxs-px: 8px;
+  --space-xs-px: 10px;
+  --space-2xs-px: 20px;
+  --space-sm-px: 12px;
+  --space-md-px: 14px;
+  --space-lg-px: 16px;
+  --space-2lg-px: 32px;
+  --space-xl-px: 24px;
+  --space-2xl-px: 48px;
 
   /* em spacing values */
   --space-unit: 1em; // 16px
   --space-xs: calc(0.5 * var(--space-unit)); // 8px
   --space-sm: calc(0.75 * var(--space-unit)); // 12px
-  --space-sx: calc(0.875* var(--space-unit)); // 14px
   --space-md: calc(1.25 * var(--space-unit)); // 20px
+
+  /* base components */
+  --button-width: 139px;
 }

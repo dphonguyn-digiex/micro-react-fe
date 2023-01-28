@@ -10,7 +10,8 @@ const fileNameAliases = {
   "@styles": path.resolve(__dirname,'./src/styles'),
   "@utils": path.resolve(__dirname, "./src/utils"),
   "@images": path.resolve(__dirname, "./src/assets/images"),
-  "@icons": path.resolve(__dirname,"./src/assets/icons"),
+  "@icons": path.resolve(__dirname, "./src/assets/icons"),
+  "@fonts": path.resolve(__dirname, "./public/fonts"),
 }
 
 module.exports = fileNameAliases;

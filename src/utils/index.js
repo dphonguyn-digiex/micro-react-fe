@@ -12,3 +12,10 @@ export const toCamelCaseKey = () => {
   }
   return obj;
 }
+
+export const clsx = (...classes) => {
+  if (Array.isArray(classes)) {
+    return classes.filter(cl => cl !== false).join(' ')
+  }
+  else return classes
+}

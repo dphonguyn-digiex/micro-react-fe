@@ -5,8 +5,18 @@ export const ID_GUIDELINES = {
   COLOR: 'Color',
   PHOTOGRAPHY: 'Photography',
   ILLUSTRATION: 'Illustration',
-  INDEX: 'guidelines'
 }
+
+export const ID_ROUTES = {
+  HOME: 'home',
+  LOGO: 'logo',
+  TYPOGRAPHY: 'typography',
+  COLOR: 'color',
+  PHOTOGRAPHY: 'photography',
+  ILLUSTRATION: 'illustration',
+}
+
+export const GUIDELINES_INDEX = 'guidelines'
 
 export const STATUS_CODES = {}
 

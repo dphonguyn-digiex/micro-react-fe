@@ -14,6 +14,7 @@
       "@utils/*": ["src/utils/*"],
       "@images/*": ["src/assets/images/*"],
       "@icons/*": ["src/assets/icons/*"],
+      "@fonts/*": ["public/fonts/*"],
     },
   },
   "exclude": ["node_modules"],

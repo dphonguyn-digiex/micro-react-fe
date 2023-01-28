@@ -1,0 +1,25 @@
+@import "@styles/variables.scss";
+
+.header {
+  background: var(--white-color);
+  width: 100%;
+  padding: 0px var(--space-lg-px);
+  height: var(--space-2xl-px);
+  transition: 0.1s ease all;
+  @include mobile {
+    background: var(--background-black-color);
+  }
+}
+
+.navHeader {
+  width: 100%;
+  height: var(--space-2xl-px);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: var(--space-2lg-px);
+  @include mobile {
+    display: none;
+  }
+}
